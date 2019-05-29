@@ -4,7 +4,7 @@
  
   tasks:
  
-  - mkdir: "/home/ankur/ansible_tower" 
+  - command: "mkdir /home/ankur/ansible_tower" 
 
 
 
