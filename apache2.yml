@@ -1,5 +1,16 @@
---- 
+---
+- name: Hello World!
   hosts: all
-  tasks: 
-   - name: "install apapche2"
-     apt: name=apache2 update_cache=yes state=latest
+ 
+  tasks:
+ 
+  - name: Hello World!
+    shell: echo "Hi! Tower is working."
+
+
+
+#--- 
+ # hosts: all
+  #tasks: 
+   #- name: "install apapche2"
+   #apt: name=apache2 update_cache=yes state=latest
